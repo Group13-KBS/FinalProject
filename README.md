@@ -10,7 +10,7 @@ Final Project
           Check for missing values, Handle Null values, Manage categorical data, Handle noisy data, Check for outliers, feature                   engineering.
 
       b)  size of data :
-          US_accidents.csv - 3M records with 49 columns
+          US_accidents.csv - 3M records with 49 columns. This dataset is a countrywide car accident dataset, which covers 49 states of             the United States. The accident data are collected from February 2016 to December 2019, using several data providers.
 
       c)  tentative plan for analysis on GCP
 
@@ -20,7 +20,7 @@ Final Project
                c. Time of day which has most accidents
                d. Severity of accidents
                e. State wise length of road affected by an accident
-               We can directly work on the preprocessed data and implement the recommendation algorithm.
+               We can work on the preprocessed data and implement the recommendation algorithm.
 
            2)  Dashboard for User group, Dashboard for Data Engineers:
                We will plan to represent graphically the severity of accidents. Also dashboards for the accidents occured based on                      various factors.
