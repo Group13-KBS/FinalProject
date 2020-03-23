@@ -1,37 +1,38 @@
 # FinalProject
 Final Project
 
-1)  Research question:   We will analyse data for US traffic accidents. Our analysis with take into account various factors which might have lead to an accident. We will look into severity , number of accidents, visibility, road condition , time and other factors that might have lead to an accident. We will predict what conditions often leads to an accident and also its severity. Our model will help general population to understand underlying factors that might lead to an accident and get a better understanding.
+1)  Research question:   Skin cancer is the most common human malignancy, is primarily diagnosed visually, beginning with an initial clinical screening and followed potentially by dermoscopic analysis, a biopsy and histopathological examination. Automated classification of skin lesions using images is a challenging task owing to the fine-grained variability in the appearance of skin lesions. This the HAM10000 ("Human Against Machine with 10000 training images") dataset.It consists of 10015 dermatoscopicimages which are released as a training set for academic machine learning purposes and are publiclyavailable through the ISIC archive. This benchmark dataset can be used for machine learning and for comparisons with human experts.
+
 2)  Domain and Data: 
-    Source of Data - https://www.kaggle.com/sobhanmoosavi/us-accidents
-    Domain - Law, geospatial analysis, 
+    Source of Data - https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
+    Domain - Health, Image Data
 
       a)  preprocessing that may be necessary: 
-          Check for missing values, Handle Null values, Manage categorical data, Handle noisy data, Check for outliers, feature                   engineering.
+          Check for missing values, Handle Null values, Manage categorical data, Handle noisy data, Check for outliers, we will read the          csv by joining the path of image folder which is the base folder where all the images are placed.
 
       b)  size of data :
-          US_accidents.csv - 3M records with 49 columns. This dataset is a countrywide car accident dataset, which covers 49 states of             the United States. The accident data are collected from February 2016 to December 2019, using several data providers.
+          HAM10000_matadata.csv - This file has 7 columns with 10015 rows. This has information about patient details.
+          In addition to this file we have 10015 images of various skin cancer patients. We also have hmnist*.csv files which has pixel           information.          
 
       c)  tentative plan for analysis on GCP
 
            1)  EDA and Preprocessing:
-               a. Number of accidents per state, county, zipcode
-               b. Find correlation between different natural factors
-               c. Time of day which has most accidents
-               d. Severity of accidents
-               e. State wise length of road affected by an accident
+               a. We will plot graphs based on the skin lesion type.
+               b. Plotting of Technical Validation field (ground truth) which is dx_type to see the distribution of its 4 categories
+               c. Plotting the distribution of localization field.
+               d. Also analyze patient informationd details.
                We can work on the preprocessed data and implement the recommendation algorithm.
 
            2)  Dashboard for User group, Dashboard for Data Engineers:
-               We will plan to represent graphically the severity of accidents. Also dashboards for the accidents occured based on                      various factors.
+               We will plan to represent graphically the different types of skin lesions based on images. Also dashboards for the                      skin images occured based on various factors.
            3)  GCP further processing :
-               We will use classiffication algorithms(KNN, Random Forest , decision tree) to predict the severity of an accidents
+               We will use classiffication algorithms(CNN) to predict the skin lesion.
 
            4)  Evaluation of results :
-               We will be evaluating our result by RMSE(Root Mean Square Error) and AUC. The smaller the value more accurate result will                be. We will try to implement and tune the algorithm to get the least RMSE.          
+               We will be evaluating our result by categorical cross entropy. The smaller the value more accurate result will                          be. We will try to implement and tune the algorithm to get the least categorical cross entropy.          
 
            5)  Steps for production model :
-               We will load our data in Classification model and train our model with partial data and check RMSE . After training , we                will be testing our model and prepare the model for Production data.
+               We will load our data in Classification model and train our model with partial data and check categorical cross entropy .                After training , we will be testing our model and prepare the model for Production data.
 
            6)  Final Dashboard for User Group :
-               Finally, we can recommend users the chances of accidents and severity based on various factors . This will help users                    plan a trip better, we will do this by finding the conditions that make travel risky
+               Finally, we can recommend users the chances of skin cancer based on the images . Our model can be used for machine                      learning and for comparisons with human experts.
