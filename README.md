@@ -12,7 +12,9 @@ Final Project
 
       b)  size of data :
           HAM10000_matadata.csv - This file has 7 columns with 10015 rows. This has information about patient details.
-          In addition to this file we have 10015 images of various skin cancer patients. We also have hmnist*.csv files which has pixel           information.          
+          In addition to this file we have 10015 images of various skin cancer patients. We also have hmnist*.csv files which has pixel           information.    
+          
+      
 
       c)  tentative plan for analysis on GCP
 
