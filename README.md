@@ -65,3 +65,22 @@ Final Project
 
            6)  Final Dashboard for User Group :
                Finally, we can recommend users the chances of skin cancer based on the images . Our model can be used for machine                      learning and for comparisons with human experts.
+      
+      Research Citation:
+      
+      1. Advanced Deep Learning Methodologies for Skin Cancer Classification in Prodromal Stages
+         By Muhammad Ali Farooq, Asma Khatoon, Viktor Varkarakis , Peter Corcoran
+         
+         In this paper, the researchers have designed a Computer-Aided Diagnosis (CAD) system which is a type of digitized platform              based on advanced computer vision, deep learning, and pattern recognition techniques for skin cancer classification. For the            proposed study we have designed a CAD system for skin cancer classification by utilizing advanced deep neural networks. this            system was created because performing dermoscopy using conventional methods may lower down the diagnostic accuracy which can            lead to more chances of errors. These errors are generally caused by the complexity of lesion structures and the subjectivity            of visual interpretations 
+      
+      2. Automatic Melanoma Detection Using Multi-Stage Neural Networks
+         By Nikhil Cheerla, Debbie Frazier
+         
+         This paper discusses about a system that uses enhanced image processing to segment the images without manual intervention. From          the segmented image, it extracts a comprehensive set of features using new and improved techniques. The features were fed                automatically to a multistage neural network classifier which achieved greater than 97% sensitivity and greater than 93%                specificity. The trained system was tested with lesion images found online and it was able to achieve similar sensitivity.              Finally, a new approach that will simplify the entire diagnosis process is discussed. This approach uses Dermlite® DL1                  dermatoscope that can be attached to the iPhone. After taking the lesion image with a dermatoscope attached iPhone, the                  physician gets the diagnosis with a few simple clicks. This system could have widespread ramifications on melanoma diagnosis.            It achieves higher sensitivity than previous research and provides an easy to use iPhone based app to detect melanoma in early          stages without the need for biopsy.
+         
+      3. Decision Support System for Skin Cancer Diagnosis
+         By Karol Przystalski ,Leszek Nowak ,Maciej Ogorzałek ,Grzegorz Surówka
+         
+         This paper proposes decision support system based on semantic analysis method for dermatoscopic images of malignant melanoma            cases. Further the system uses automatic classification using two approaches, namely the radial basis function kernels in                artificial neural networks and four kernels (linear, polynomial, radial and sigmoid based) for support vector machines. In the          analysis process all images are segmented into semantic objects containing various textures, shapes and colors.
+
+
