@@ -25,7 +25,7 @@ Final Project
     
     ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image3.JPG)
     
-    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image4.JPG)
+    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image4.png)
     
     
     
