@@ -21,11 +21,11 @@ Final Project
     User Dashboard:
     ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/Image1.JPG)
     
-    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/Image2.JPG)
+    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image2.JPG)
     
-    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/Image3.JPG)
+    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image3.JPG)
     
-    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/Image4.JPG)
+    ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image4.JPG)
     
     
     
