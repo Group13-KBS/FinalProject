@@ -6,13 +6,13 @@ Final Project
 2)  Domain and Data: 
     Source of Data - https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
     Domain - Health, Image Data
+    Size of Data : HAM10000_matadata.csv - This file has 7 columns with 10015 rows. This has information about patient details.
+          In addition to this file we have 10015 images of various skin cancer patients. We also have hmnist*.csv files which has pixel           information.
 
       a)  preprocessing that may be necessary: 
           Check for missing values, Handle Null values, Manage categorical data, Handle noisy data, Check for outliers, we will read the          csv by joining the path of image folder which is the base folder where all the images are placed.
 
-      b)  size of data :
-          HAM10000_matadata.csv - This file has 7 columns with 10015 rows. This has information about patient details.
-          In addition to this file we have 10015 images of various skin cancer patients. We also have hmnist*.csv files which has pixel           information.    
+         
        ![image](https://github.com/Group13-KBS/FinalProject/blob/master/Tablesummary.JPG)
        
       
