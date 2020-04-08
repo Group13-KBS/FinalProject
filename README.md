@@ -9,11 +9,18 @@ Final Project
     Size of Data : HAM10000_matadata.csv - This file has 7 columns with 10015 rows. This has information about patient details.
           In addition to this file we have 10015 images of various skin cancer patients. We also have hmnist*.csv files which has pixel           information.
 
-      a)  preprocessing that may be necessary: 
-          Check for missing values, Handle Null values, Manage categorical data, Handle noisy data, Check for outliers, we will read the          csv by joining the path of image folder which is the base folder where all the images are placed.
+    Preprocessing: We have removed nulls from the age column and replaced it with the mean.
+                   We added 3 new columns in the table for better understanding of the data.
+                   1) With dx - Cancer Type
+                   2) With dx-  Cancer Id
+                   3) Age Range - Age - For Plotting age Data
 
          
        ![image](https://github.com/Group13-KBS/FinalProject/blob/master/Tablesummary.JPG)
+       
+    Dashboard:
+    
+    
        
       
 
