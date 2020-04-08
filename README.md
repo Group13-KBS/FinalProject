@@ -20,17 +20,21 @@ Final Project
        
     User Dashboard:
     
-    The below dashboard represents cancer type and the their counts
+    The below dashboard represents count of each age range
     ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/Image1.JPG)
     
-    The below dashboard represents pie chart of diagnostics type
+    The below dashboard represents body part affected based on gender
     ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image2.JPG)
     
-    The below dashboard represents body part affected based on gender
+    The below dashboard represents pie chart of diagnostics type
     ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image3.JPG)
     
-    The below dashboard represents count of each age range
+    The below dashboard represents cancer type and the their counts
     ![image](https://github.com/Group13-KBS/FinalProject/blob/master/EDA%20images/image4.png)
+    
+    Internal Dashboard:
+    
+    Data Scientist or Data Engineer? Please download the jupyter notebook [here](https://github.com/Group13-KBS/FinalProject/blob/master/Notebooks/Untitled.ipynb) to access a more sophisticated dashboard on the dataset.
     
     
     
