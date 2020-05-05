@@ -38,5 +38,5 @@ PuttyGen
         $ conda list conda$
         
 **Here are the steps to work with the data and train our model**
-A
 
+The steps for preprocessing and dashboard can be found here (https://github.com/Group13KBS/FinalProject/blob/master/Notebooks/preprocessing.ipynb)
