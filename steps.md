@@ -41,4 +41,4 @@ PuttyGen
 
 The steps for preprocessing and dashboard can be found [here](https://github.com/Group13KBS/FinalProject/blob/master/Notebooks/preprocessing.ipynb)
 
-The steps to train the model and to predict skin cancer based on images can be found [here](https://github.com/Group13-KBS/FinalProject/blob/master/Skin_Cancer.ipynb)
+The steps to train the model and to predict skin cancer based on images can be found [here](https://github.com/Group13-KBS/FinalProject/blob/master/Notebooks/Skin_Cancer.ipynb)
