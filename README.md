@@ -1,7 +1,21 @@
-# FinalProject
-Final Project
+# Skin Cancer Detection using Keras
 
-1)  Research question:   Skin cancer is the most common human malignancy, is primarily diagnosed visually, beginning with an initial clinical screening and followed potentially by dermoscopic analysis, a biopsy and histopathological examination. Automated classification of skin lesions using images is a challenging task owing to the fine-grained variability in the appearance of skin lesions. This the HAM10000 ("Human Against Machine with 10000 training images") dataset.It consists of 10015 dermatoscopicimages which are released as a training set for academic machine learning purposes and are publiclyavailable through the ISIC archive. This benchmark dataset can be used for machine learning and for comparisons with human experts.
+**Team Member: Abhishek Fulzele, Ayanjyoti Thakuria, Rahul Patel, Sourav Roy Choudhary**
+
+## Installation and setup
+
+This project assumes that Python3 is already installed.
+
+To install Keras:
+```
+pip install Keras
+```
+
+The dataset can be downloaded on the Kaggle [link](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000).
+
+## Description
+
+1) Research question: Skin cancer is the most common human malignancy, is primarily diagnosed visually, beginning with an initial clinical screening and followed potentially by dermoscopic analysis, a biopsy and histopathological examination. Automated classification of skin lesions using images is a challenging task owing to the fine-grained variability in the appearance of skin lesions. This the HAM10000 ("Human Against Machine with 10000 training images") dataset.It consists of 10015 dermatoscopicimages which are released as a training set for academic machine learning purposes and are publiclyavailable through the ISIC archive. This benchmark dataset can be used for machine learning and for comparisons with human experts.
 
 2)  Domain and Data: 
     Source of Data - https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
@@ -34,7 +48,7 @@ Final Project
     
     Internal Dashboard:
     
-    Data Scientist or Data Engineer? Please download the jupyter notebook [here](https://github.com/Group13-KBS/FinalProject/blob/master/Notebooks/Untitled.ipynb) to access a more sophisticated dashboard on the dataset.
+    Data Scientist or Data Engineer? Please download the jupyter notebook [here](https://github.com/Group13-KBS/FinalProject/blob/master/Notebooks/preprocessing.ipynb) to access a more sophisticated dashboard on the dataset.
     
     
     
