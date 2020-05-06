@@ -1,6 +1,14 @@
 # Skin Cancer Detection using Keras
 
-**Team Member: Abhishek Fulzele, Ayanjyoti Thakuria, Rahul Patel, Sourav Roy Choudhary**
+## Team Member and Roles:
+Abhishek Fulzele, Ayanjyoti Thakuria, Rahul Patel, Sourav Roy Choudhary**
+
+| Names         | Roles and Responsibilities           |
+| ------------- |:------------------------------------:|
+| Abhishek Fulzele      | Worked with Sourav and Ayanjyoti for builing dashboard and the model |
+| Ayanjyoti Thakuria    | Worked with Abhishek to build and fit predictive model using Python, Keras and Google Cloud Platform |
+| Rahul Patel           | Researched dataset for analysis and preprossessing |
+| Sourav Roy Choudhary  | Developed Dashboard on Google Cloud Platform |
 
 ## Installation and setup
 
